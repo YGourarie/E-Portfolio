@@ -11,14 +11,14 @@
 
 <body>
   <div class="post__search">
-    <a href="/index.html">
+    <a href="./index.html">
       <button>← Back</button>
     </a>
     <div class="post__search--container">
       <label class="post__search--label">
         Search by Id
       </label>
-      <input type="text" placeholder="1">
+      <input id="input-placeholder" type="text" placeholder="1" onchange="onSearchChange(event)">
     </div>
   </div>
   <div class="post-list">
