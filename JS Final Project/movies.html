@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="movies.js" defer></script>
+    <script src="https://kit.fontawesome.com/35caf49b73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-compact-disc logo__pic"></i>
+                <h1 class="logo__header">Moovies</h1>
+            </div>
+            <ul class="nav__link--list">
+                <li class="nav__link">
+                    <a href="./index.html" class="nav__link--anchor">Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#" class="nav__link--anchor">Browse</a>
+                </li>
+                <li class="nav__link">
+                    <a href="" class="nav__link--anchor nav__link--anchor-primary">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" class="search__bar" onchange="search(event)">
+            <button class="search__btn" onclick="getInput()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </header>
+    <div class="movies">
+        <div class="movie">
+            <figure class="movie__img">
+                <img src="./Assets/undraw_home_cinema_l7yl.svg" alt="">
+            </figure>
+            <div class="movie__info">
+                <h3 class="movie__info--title">Title: title</h3>
+                <h3 class="movie__info--year">Release Year: 0000</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
